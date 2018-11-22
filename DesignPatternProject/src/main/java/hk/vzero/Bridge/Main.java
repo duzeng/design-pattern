@@ -18,6 +18,14 @@ public class Main {
 		d4.randomDisplay(5);
 		
 		d5.multiDisplay(3);
+		
+		
+		IncreaseDisplay d6=new IncreaseDisplay(new CharDisplayImpl('<', '*', '>'), 1);
+		IncreaseDisplay d7=new IncreaseDisplay(new CharDisplayImpl('|', '#', '-'), 2);
+		
+		d6.increaseDisplay(4);
+		d7.increaseDisplay(6);
+		
 	}
 
 }
